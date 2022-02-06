@@ -127,72 +127,108 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="channelSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GiL-bP-FZi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQA-n2-YGn">
                                 <rect key="frame" x="216" y="461" width="50" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="1"/>
+                                <connections>
+                                    <action selector="channelSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fct-Hi-Dne"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sd9-Lk-6hj">
                                 <rect key="frame" x="274" y="461" width="50" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="2"/>
+                                <connections>
+                                    <action selector="channelSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NGa-8C-CXs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vy7-Vl-cR0">
                                 <rect key="frame" x="332" y="461" width="50" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="3"/>
+                                <connections>
+                                    <action selector="channelSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qlo-Cc-3me"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vg5-wl-7OE">
                                 <rect key="frame" x="158" y="500" width="50" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Ch +"/>
+                                <connections>
+                                    <action selector="incrementChannel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l8g-oB-fQi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjq-pO-fFg">
                                 <rect key="frame" x="216" y="500" width="50" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="4"/>
+                                <connections>
+                                    <action selector="channelSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lkg-D6-TDj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDY-3i-SEF">
                                 <rect key="frame" x="274" y="500" width="50" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="5"/>
+                                <connections>
+                                    <action selector="channelSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bxy-HZ-Zd7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPN-xh-0qh">
                                 <rect key="frame" x="332" y="500" width="50" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="6"/>
+                                <connections>
+                                    <action selector="channelSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sYt-Qu-0G8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6g-rL-mUQ">
                                 <rect key="frame" x="158" y="539" width="50" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="CH -"/>
+                                <state key="normal" title="Ch -"/>
+                                <connections>
+                                    <action selector="incrementChannel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dGb-rr-tHh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iYg-eC-dTu">
                                 <rect key="frame" x="216" y="539" width="50" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="7"/>
+                                <connections>
+                                    <action selector="channelSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K2l-Bd-kjX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cK9-Kn-e4f">
                                 <rect key="frame" x="274" y="539" width="50" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="8"/>
+                                <connections>
+                                    <action selector="channelSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nm8-jH-RgS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bqd-Kj-m2b">
                                 <rect key="frame" x="332" y="539" width="50" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="9"/>
+                                <connections>
+                                    <action selector="channelSelection:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hwW-em-QN1"/>
+                                </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hvP-mI-G8f">
                                 <rect key="frame" x="158" y="620" width="217" height="32"/>
@@ -203,13 +239,22 @@
                                     <segment title="CBS"/>
                                     <segment title="FOX"/>
                                 </segments>
+                                <connections>
+                                    <action selector="favoriteChannelSelection:" destination="BYZ-38-t0r" eventType="valueChanged" id="BpP-Sp-D40"/>
+                                </connections>
                             </segmentedControl>
+                            <stepper hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="99" translatesAutoresizingMaskIntoConstraints="NO" id="rQy-Sy-a6M">
+                                <rect key="frame" x="97" y="736" width="94" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stepper>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="channelStepper" destination="rQy-Sy-a6M" id="X0k-Fo-Hv3"/>
                         <outlet property="channelValue" destination="w2G-be-CtW" id="uJr-j0-kkI"/>
+                        <outlet property="favoriteChannelSegmentControl" destination="hvP-mI-G8f" id="XCC-5v-mPJ"/>
                         <outlet property="powerStatus" destination="hyz-vD-f8R" id="bMM-GV-dVN"/>
                         <outlet property="powerSwitch" destination="QYI-Ev-9md" id="Eng-Ge-MNn"/>
                         <outlet property="volumeSlider" destination="aXn-hQ-Fnn" id="aAq-rc-olp"/>
